@@ -1,14 +1,14 @@
 import React from "react";
-import ReactDOM  from "react-dom";
+import ReactDOM from "react-dom";
 
-
-function App() {
-  return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
-  );
+class App extends React.Component { 
+  render() {
+    
+    return(
+    <h1>Welcome to Andhrapradesh</h1>);}
 }
- ReactDOM.render(<App/>,document.getElementById("root"));
 
- export default App
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+export default App;
